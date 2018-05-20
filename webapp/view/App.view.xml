@@ -1,0 +1,16 @@
+<mvc:View
+	displayBlock="true"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<Carousel>
+		<pages>
+			<Image  src="https://cdn.cnn.com/cnnnext/dam/assets/120519104112-celebrations-horizontal-large-gallery.jpg"
+				height="400px"/>
+			<Image src ="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Antonio_Conte.jpg/1024px-20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Antonio_Conte.jpg"
+	    		height = "400px" />
+	    	<Image  src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Jos%C3%A9_Mourinho.jpg"
+				height="400px"/>
+		</pages>
+	</Carousel>
+</mvc:View>
+
