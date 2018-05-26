@@ -1,7 +1,8 @@
 <mvc:View
 	displayBlock="true"
 	xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m">
+	xmlns="sap.m"
+	controllerName="opensap.myapp.controller.App" >
 	<Carousel>
 		<pages>
 			<Image  src="https://cdn.cnn.com/cnnnext/dam/assets/120519104112-celebrations-horizontal-large-gallery.jpg"
@@ -12,5 +13,5 @@
 				height="400px"/>
 		</pages>
 	</Carousel>
+	<Button text="Say! Chelsea" press="onShowHello"/>
 </mvc:View>
-
